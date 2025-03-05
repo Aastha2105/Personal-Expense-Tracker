@@ -1,18 +1,14 @@
 # Personal-Expense-Tracker
 
-Problem statement:
-In today’s fast-paced world, individuals need to track and manage their expenses 
-effectively. Your task is to build a personal expense tracker that allows users to log 
-daily expenses, categorize them, and track spending against a monthly budget. The 
-tracker should also be able to save and load expenses from a file for future 
-reference.
+In today's fast-paced world, managing personal finances is crucial for maintaining financial health. This personal expense tracker project aims to help users effectively log and manage their daily expenses, categorize them, and track spending against a monthly budget. The application also includes functionality for saving and loading expense data from a file, ensuring easy access to financial records.
 
 Objectives:
-1. Design and implement a personal expense tracker that enables users to 
-manage their expenses
-2. Allow users to categorize expenses and set monthly budgets
-3. Implement file-handling functionality to save and load expense data
-4. Create an interactive, menu-driven interface for ease of use
+
+•	Expense Logging: Users can add expenses by entering details such as the date, category, amount spent, and a brief description. Each expense is stored as a dictionary in a list for easy management.
+•	Viewing Expenses: The application allows users to retrieve and display all stored expenses. It validates the data to ensure that incomplete entries are skipped or flagged for the user's attention.
+•	Budget Management: Users can set a monthly budget and track their expenses against it. The application calculates total expenses and provides feedback on whether the user is within budget or has exceeded it.
+•	File Handling: The tracker includes functions to save expenses to a CSV file and load them upon startup. This feature allows users to maintain a continuous record of their expenses across sessions.
+•	Interactive Menu Interface: The user interface is menu-driven, offering options to add expenses, view expenses, track the budget, save expenses, or exit the program. This design enhances usability and accessibility
 
 Features of the Expense Tracker
 - Add Expense: Prompts the user for details and adds them to the list.
